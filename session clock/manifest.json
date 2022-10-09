@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "Session clock",
+    "version": "1.0",
+    "description": "session clock",
+    "icons": {
+        "128": "img/icons128.png",
+        "48": "img/icons48.png",
+        "16": "img/icons16.png"
+    },
+    "action": {
+        "default_title": "Click to view a popup",
+        "default_popup": "index.html"
+      },
+    "content_security_policy": {
+        "extension_pages": "script-src 'self'; object-src 'self'"
+    }
+}
